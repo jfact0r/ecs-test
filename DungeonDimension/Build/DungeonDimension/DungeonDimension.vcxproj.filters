@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Comps">
+      <UniqueIdentifier>{b34bd377-d1ac-4953-be9d-fa2af968d4f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{a40f3924-a2ca-400a-a3c5-15d1df20fc16}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\DungeonDimension.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Comps\CInput.cpp">
+      <Filter>Source Files\Comps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Comps\CInputTester.cpp">
+      <Filter>Source Files\Comps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Comps\CQuitter.cpp">
+      <Filter>Source Files\Comps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Engine\Comp.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Engine\Engine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Engine\Entity.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Engine\Prop.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Comps\CWorld.cpp">
+      <Filter>Source Files\Comps</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Comps\CInput.hpp">
+      <Filter>Source Files\Comps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Comps\CInputTester.hpp">
+      <Filter>Source Files\Comps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Comps\CQuitter.hpp">
+      <Filter>Source Files\Comps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Engine\Utility.hpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Engine\Comp.hpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Engine\Engine.hpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Engine\Entity.hpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Engine\Managed.hpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Engine\Named.hpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Engine\Prop.hpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Comps\CWorld.hpp">
+      <Filter>Source Files\Comps</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
